@@ -1,0 +1,73 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+  margin-bottom: 60px;
+}
+
+#main-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.review-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav{
+    flex-direction:row !important;
+}
+
+p-price {
+    color: orangered;
+    font-weight: 900;
+}
+
+.detail-card-title {
+    font-family: Roboto;
+    color: rgb(227, 16, 27) !important;
+    font-weight: 600;
+}
+
+.card-link:hover,
+.card-link:visited,
+.card-link:link {
+    text-decoration: none;
+}
+
+.card-link:hover .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.form-control.me-2 {
+    background-color: white;
+    color: black;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.form-control.me-2::placeholder {
+    color: black;
+}
